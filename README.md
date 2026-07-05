@@ -4,7 +4,6 @@ A PyTorch implementation of **Physics-Grounded Self-Supervised Vision (PGSV)**, 
 
 This repository contains the complete implementation used for the PGSV proof-of-concept experiments on the **MNIST** dataset.
 
----
 
 ## Overview
 
@@ -18,7 +17,6 @@ Traditional self-supervised vision models primarily learn appearance-based repre
 
 Although demonstrated on MNIST, the framework is designed as a foundation for future research in physics-aware visual intelligence.
 
----
 
 ## Features
 
@@ -32,7 +30,6 @@ Although demonstrated on MNIST, the framework is designed as a foundation for fu
 - Reconstruction comparison with baseline VAE
 - Object discovery and clustering evaluation
 
----
 
 ## Model Architecture
 
@@ -65,7 +62,6 @@ Training is performed using a composite loss consisting of:
 - Geometry Consistency Loss
 - NT-Xent Contrastive Loss
 
----
 
 ## Repository Contents
 
@@ -76,7 +72,6 @@ Training is performed using a composite loss consisting of:
 └── images/                 
 ```
 
----
 
 ## Dataset
 
@@ -92,7 +87,6 @@ Instead of using consecutive video frames, synthetic temporal pairs are created 
 
 These augmentation pairs simulate temporal observations for self-supervised learning.
 
----
 
 ## Training
 
@@ -112,7 +106,6 @@ Composite loss includes:
 - Contrastive Loss
 - KL Regularization
 
----
 
 ## Evaluation
 
@@ -126,7 +119,6 @@ The notebook includes:
 - Adjusted Rand Index (ARI)
 - Clustering Accuracy
 
----
 
 ## Results
 
@@ -142,7 +134,6 @@ Compared to a baseline Variational Autoencoder, PGSV achieved:
 | SSIM | — | **0.7737** |
 | PSNR | — | **19.03 dB** |
 
----
 
 ## Notebook Structure
 
@@ -161,7 +152,6 @@ The notebook is organized into:
 11. Visualizations
 12. Summary
 
----
 
 ## Technologies Used
 
@@ -171,8 +161,6 @@ The notebook is organized into:
 - NumPy
 - Scikit-learn
 - Matplotlib
-
----
 
 ## Future Improvements
 
