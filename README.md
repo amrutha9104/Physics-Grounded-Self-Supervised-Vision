@@ -171,7 +171,6 @@ The notebook is organized into:
 - Neural Radiance Fields (NeRF)
 - Multi-modal self-supervised learning
 
----
 
 ## License
 
